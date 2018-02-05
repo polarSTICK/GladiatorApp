@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GladiatorApp.Android", "GladiatorApp\GladiatorApp.Android\GladiatorApp.Android.csproj", "{07C6B198-1524-47CB-A4C5-FA882445BB61}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "GladiatorApp", "GladiatorApp\GladiatorApp\GladiatorApp.shproj", "{DD80CA8A-B7F5-4A27-BA41-7677B464FFF4}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		GladiatorApp\GladiatorApp\GladiatorApp.projitems*{07c6b198-1524-47cb-a4c5-fa882445bb61}*SharedItemsImports = 4
+		GladiatorApp\GladiatorApp\GladiatorApp.projitems*{dd80ca8a-b7f5-4a27-ba41-7677b464fff4}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07C6B198-1524-47CB-A4C5-FA882445BB61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C6B198-1524-47CB-A4C5-FA882445BB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C6B198-1524-47CB-A4C5-FA882445BB61}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{07C6B198-1524-47CB-A4C5-FA882445BB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C6B198-1524-47CB-A4C5-FA882445BB61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C6B198-1524-47CB-A4C5-FA882445BB61}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE56CE96-03AF-45FC-8E48-D2DA32A6EA4B}
+	EndGlobalSection
+EndGlobal
