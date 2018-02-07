@@ -10,7 +10,7 @@ namespace GladiatorApp.Droid
     [Activity(Label = "GladiatorApp", MainLauncher = true, Icon = "@mipmap/icon")]
     public class MainActivity : Activity
     {
-        int count = 1;
+        //int count = 1;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -25,7 +25,12 @@ namespace GladiatorApp.Droid
             // and attach an event to it
             Button button = FindViewById<Button>(Resource.Id.myButton);
 
-            button.Click += delegate { button.Text = $"{count++} clicks!"; };
+            button.Click += Button_Click;
+        }
+
+        private void Button_Click(object sender, System.EventArgs e)
+        {
+            Character.Character Mark = new Character.Character(5, 5, 5, 5, 5, 5);
         }
     }
 }

@@ -9,6 +9,15 @@
     <Import_RootNamespace>GladiatorApp</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Character\BaseClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Character\Character.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Character\Characteristics\Agility.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Character\Characteristics\Constitution.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Character\Characteristics\Dexterity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Character\Characteristics\Intellect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Character\Characteristics\Strength.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Character\Characteristics\Willpower.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Character\WarriorClass.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
   </ItemGroup>
 </Project>
